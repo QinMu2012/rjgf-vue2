@@ -1,3 +1,22 @@
+# 1.0.0 (2025-07-14)
+
+
+### Bug Fixes
+
+* 版本设置 ([7dfebab](https://github.com/QinMu2012/rjgf-vue2/commit/7dfebab2826b93c844375b3f5aa41a9df3cbd70d))
+* 版本升级 ([2cf4f62](https://github.com/QinMu2012/rjgf-vue2/commit/2cf4f628995bca00d0b0ed06a240556612a7c6ac))
+* 版本升级 ([d8149b5](https://github.com/QinMu2012/rjgf-vue2/commit/d8149b5a813bb2254b8c4d08aca1cfbf779bba8d))
+* 包管理 ([46b0a06](https://github.com/QinMu2012/rjgf-vue2/commit/46b0a065384eaadf9999e406e909f710fb3603f8))
+* 包配置 ([665ce15](https://github.com/QinMu2012/rjgf-vue2/commit/665ce157262ef24d709c30999952bcfb58e4f7eb))
+* 发布配置 ([8cb596e](https://github.com/QinMu2012/rjgf-vue2/commit/8cb596eb993275f9675498869983c6f418028e12))
+* 工作区包@vue/compiler-sfc ([063b604](https://github.com/QinMu2012/rjgf-vue2/commit/063b604c09a3e1e872b1b08ebf9618f83fbba359))
+* 清理包 ([4c79dfc](https://github.com/QinMu2012/rjgf-vue2/commit/4c79dfc356d334426ea87475e769080b77da630a))
+* 修改包名 ([17c6a82](https://github.com/QinMu2012/rjgf-vue2/commit/17c6a82367bc1ec924369da82486f870cf9f20e5))
+* npm publish ([9e4285b](https://github.com/QinMu2012/rjgf-vue2/commit/9e4285b9de79bf20e7d7839094a3e704258f7c9d))
+* npm发布 ([7214e27](https://github.com/QinMu2012/rjgf-vue2/commit/7214e27d170bd1f5f8bd74056ddd013cb56a30f8))
+
+
+
 ## [2.7.16](https://github.com/vuejs/vue/compare/v2.7.16-beta.2...v2.7.16) (2023-12-24)
 
 
