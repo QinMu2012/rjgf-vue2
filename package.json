@@ -1,6 +1,6 @@
 {
   "name": "rj-vue2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "packageManager": "pnpm@8.9.2",
   "description": "vue2.7.16 + ReDoS漏洞修复",
   "main": "dist/vue.runtime.common.js",
