@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@vue/compiler-sfc':
-        specifier: 2.7.16
-        version: link:packages/compiler-sfc
+        specifier: file:packages/compiler-sfc
+        version: file:packages/compiler-sfc
       csstype:
         specifier: ^3.1.0
         version: 3.1.2
@@ -729,6 +729,7 @@ packages:
     resolution: {integrity: sha512-9lhc4UZstsegbNLhH0Zu6TqvDfmhGzuCWtcTFXY10VjLLUe4Mr0Ye2L3rrtHaDd/J5+tFMEuo5LTCSCMXWfUKw==}
     cpu: [arm64]
     os: [linux]
+    libc: [glibc]
     requiresBuild: true
     dev: true
     optional: true
@@ -737,6 +738,7 @@ packages:
     resolution: {integrity: sha512-FfoOK1yP5ksX3wwZ4Zk1NgyGHZyuRhf99j64I5oEmirV8EFT7+OhUZEnP+x17lcP/QHJNWGsoJwrz4PJ9fBEXw==}
     cpu: [arm64]
     os: [linux]
+    libc: [musl]
     requiresBuild: true
     dev: true
     optional: true
@@ -745,6 +747,7 @@ packages:
     resolution: {integrity: sha512-DNGZvZDO5YF7jN5fX8ZqmGLjZEXIJRdJEdTFMhiyXqyXubBa0WVLDWSNlQ5JR2PNgDbEV1VQowhVRUh+74D+RA==}
     cpu: [x64]
     os: [linux]
+    libc: [glibc]
     requiresBuild: true
     dev: true
     optional: true
@@ -753,6 +756,7 @@ packages:
     resolution: {integrity: sha512-RkJVNVRM+piYy87HrKmhbexCHg3A6Z6MU0W9GHnJwBQNBeyhCJG9KDce4SAMdicQnpURggSvtbGo9xAWOfSvIQ==}
     cpu: [x64]
     os: [linux]
+    libc: [musl]
     requiresBuild: true
     dev: true
     optional: true
@@ -975,16 +979,6 @@ packages:
       diff-sequences: 29.6.3
       loupe: 2.3.7
       pretty-format: 29.7.0
-    dev: true
-
-  /@vue/compiler-sfc@2.7.16:
-    resolution: {integrity: sha512-KWhJ9k5nXuNtygPU7+t1rX6baZeqOYLEforUPjgNDBnLicfHCoi48H87Q8XyLZOrNNsmhuwKqtpDQWjEFe6Ekg==}
-    dependencies:
-      '@babel/parser': 7.23.5
-      postcss: 8.4.32
-      source-map: 0.6.1
-    optionalDependencies:
-      prettier: 2.8.8
     dev: true
 
   /@vue/consolidate@0.17.3:
@@ -7020,8 +7014,18 @@ packages:
 
   'file:':
     resolution: {directory: '', type: directory}
-    name: rjgf-vue2
+    name: rj-vue2
     dependencies:
-      '@vue/compiler-sfc': 2.7.16
+      '@vue/compiler-sfc': file:packages/compiler-sfc
       csstype: 3.1.2
     dev: true
+
+  file:packages/compiler-sfc:
+    resolution: {directory: packages/compiler-sfc, type: directory}
+    name: '@vue/compiler-sfc'
+    dependencies:
+      '@babel/parser': 7.23.5
+      postcss: 8.4.32
+      source-map: 0.6.1
+    optionalDependencies:
+      prettier: 2.8.8
